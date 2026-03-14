@@ -1,8 +1,10 @@
 {
-    "rewrites": [
-        {
-            "source": "/socket.io/:path*",
-            "destination": "/api/chat/:path*"
-        }
-    ]
+  "installCommand": "npm ci",
+  "buildCommand": "npm run build",
+  "rewrites": [
+    {
+      "source": "/socket.io/:path*",
+      "destination": "/api/chat/:path*"
+    }
+  ]
 }

@@ -2,12 +2,17 @@
 
 LinguaCam Live is a professional OBS overlay suite featuring AI-translated global captions, unified dynamic chat, and interactive stream widgets. Designed with modern web technologies, it provides a seamless and visually stunning experience for language-inclusive live streams.
 
+## Live Demo (GitHub Pages)
+- Project URL format: **https://<your-github-username>.github.io/lingua-cam-live/**
+- Example: `https://octocat.github.io/lingua-cam-live/`
+
 ## Features
 - **Real-Time Translated Captions**: Uses Lingo.dev API to provide low-latency translations directly on your stream overlay.
 - **Unified Chat (Danmu)**: Fluid, wave-based chat movement that integrates directly with YouTube Live Chat.
 - **Multilingual Support**: Real-time translations handle numerous languages.
 - **Stream Widgets & FX**: Includes interactive elements like Soundboards, Cinematic FX filters, Quick Chat buttons, and Emote Pop reactions.
-- **Vercel Ready**: Fully serverless architecture for easy and free deployment on Vercel.
+- **Vercel Ready**: Serverless deployment for Vercel.
+- **GitHub Pages Ready**: Static export + GitHub Actions workflow for Pages hosting.
 
 ## Getting Started
 
@@ -37,4 +42,17 @@ Simply click on the **Setup APIs** button in the Control Center to input your AP
 > Note: Make sure to keep your API keys private!
 
 ## Deployment
-This project is fully compatible with Vercel's serverless infrastructure. Simply connect your GitHub repository to Vercel and it will automatically build and deploy.
+
+### GitHub Pages
+1. Push this repository to GitHub.
+2. In GitHub, open **Settings → Pages**.
+3. Set **Source** to **GitHub Actions**.
+4. Push to `main` (or run the workflow manually).
+5. Your site will be published at:
+   - `https://<your-github-username>.github.io/lingua-cam-live/`
+6. Open the URL in your browser and share it as your public project website.
+
+### Vercel
+This project is also compatible with Vercel. Connect your GitHub repository to Vercel and deploy.
+
+> Note: GitHub Pages is static hosting. API routes (like `/api/translate`) are not server-rendered there.
