@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "lingo": "npx lingo"
+    "lingo": "npx lingo",
+    "build:pages": "GITHUB_PAGES=true next build"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.4",

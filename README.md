@@ -3,7 +3,8 @@
 LinguaCam Live is a professional OBS overlay suite featuring AI-translated global captions, unified dynamic chat, and interactive stream widgets. Designed with modern web technologies, it provides a seamless and visually stunning experience for language-inclusive live streams.
 
 ## Live Demo (GitHub Pages)
-- Project URL (after enabling Pages): **https://<your-github-username>.github.io/lingua-cam-live/**
+- Project URL format: **https://<your-github-username>.github.io/lingua-cam-live/**
+- Example: `https://octocat.github.io/lingua-cam-live/`
 
 ## Features
 - **Real-Time Translated Captions**: Uses Lingo.dev API to provide low-latency translations directly on your stream overlay.
@@ -49,6 +50,7 @@ Simply click on the **Setup APIs** button in the Control Center to input your AP
 4. Push to `main` (or run the workflow manually).
 5. Your site will be published at:
    - `https://<your-github-username>.github.io/lingua-cam-live/`
+6. Open the URL in your browser and share it as your public project website.
 
 ### Vercel
 This project is also compatible with Vercel. Connect your GitHub repository to Vercel and deploy.
