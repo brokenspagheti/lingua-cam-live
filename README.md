@@ -2,9 +2,7 @@
 
 LinguaCam Live is a professional OBS overlay suite featuring AI-translated global captions, unified dynamic chat, and interactive stream widgets. Designed with modern web technologies, it provides a seamless and visually stunning experience for language-inclusive live streams.
 
-## Live Demo (GitHub Pages)
-- Project URL format: **https://<your-github-username>.github.io/lingua-cam-live/**
-- Example: `https://octocat.github.io/lingua-cam-live/`
+## Live Demo(https://lingua-cam-live.vercel.app/live)
 
 ## Features
 - **Real-Time Translated Captions**: Uses Lingo.dev API to provide low-latency translations directly on your stream overlay.
